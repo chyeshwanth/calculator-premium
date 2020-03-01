@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <td class="side-heading">Date of Birth</td>
+    <td><input type="date" [(ngModel)]="dob"></td>
+  </tr>
+  <tr>
+    <td class="side-heading">State</td>
+    <td><input type="text" [(ngModel)]="state"></td>
+  </tr>
+  <tr>
+    <td class="side-heading">Age</td>
+    <td><input type="number" [(ngModel)]="age"></td>
+  </tr>
+</table>
+<button (click)="getPremiumValue()">Get Value</button>{{premium}}
+<br>
